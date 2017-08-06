@@ -10,7 +10,8 @@ public class ItemOneTest {
 	@Test
 	public void itemOneTest() {
 		ItemOne itemOne = new ItemOne();
-		assertEquals("3",itemOne.itemOne(),0);
+		String result = "131750";
+		assertEquals(result,itemOne.itemOne());
 	}
 
 }
