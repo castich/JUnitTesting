@@ -2,8 +2,8 @@ package com.itemone;
 
 public class ItemOne {
 
-	public int itemOne() {
-		int result = 0;
+	public String itemOne() {
+		StringBuilder result = new StringBuilder();
 		
 		int i=1;
 		for (int j=0; j<5;j=j+2){
@@ -12,16 +12,17 @@ public class ItemOne {
 		
 		switch (i){
 		case 3:
+			result.append("3");
 			break;
 		case 13:
-			result += 1;
+			result.append("13");
 		case 175:
-			result += 1;
+			result.append("175");
 		default:
-			result += 1;
+			result.append("0");
 		}
 		
-		return result;
+		return result.toString();
 
 	}
 

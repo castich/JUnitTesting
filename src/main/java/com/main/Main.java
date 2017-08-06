@@ -1,18 +1,25 @@
 package com.main;
 
-import com.itemseven.ItemSeven;
 import com.itemten.ItemTen;
-import com.itemthree.ItemThree;
 
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ItemSeven is = new ItemSeven();
-		ItemTen it = new ItemTen();
-		ItemThree item3 = new ItemThree();
-		int x = item3.itemThree(2, 2, 1);
-		System.out.println(x);
+//		ItemOne one = new ItemOne();
+//		String result = one.itemOne();
+//		System.out.println(result);
+//		
+//		ItemTwo two = new ItemTwo();
+//		
+//		System.out.println(two.itemTwo());
+		
+//		ItemSeven seven = new ItemSeven();
+//		String res7 = seven.itemSeven(60);
+//		System.out.println(res7);
+		
+		ItemTen ten = new ItemTen();
+		ten.tenA();
 	}
 
 }
